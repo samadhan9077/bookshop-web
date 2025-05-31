@@ -13,8 +13,8 @@ import { BookdetailsComponent } from './bookdetails/bookdetails.component';
 import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
 
 export const routes: Routes = [
-    {path:'home',component:HomeComponent},
     {path:'',redirectTo:'home',pathMatch:'full'},
+    {path:'',component:HomeComponent},
     {path:'books',component:ViewbooksComponent},
     {path:'feedback',component:FeedbackComponent},
     {path:'login',component:LoginComponent},
@@ -27,4 +27,5 @@ export const routes: Routes = [
     {path:'bookdetails/:id',component:BookdetailsComponent},
     {path:'orderdetails/:id',component:OrderdetailsComponent},
     {path:'**',redirectTo:'home',pathMatch:'full'},
+
 ];
