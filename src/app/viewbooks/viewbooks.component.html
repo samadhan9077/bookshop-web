@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class="text-center">Available Books</h1>
-    <div class="card-group">
+    <div class="row row-cols-4">
 
         <div class="card col" style="width: 18rem;" *ngFor="let b of barr">
             <img src="http://localhost:9000/bookshop/downloadFile/{{b.bookImages[0].name}}" class="card-img-top" alt="..." width="200px" height="330px">
