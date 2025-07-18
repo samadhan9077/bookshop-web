@@ -26,5 +26,5 @@ export const routes: Routes = [
     {path:'alogin',component:AdminloginComponent},
     {path:'bookdetails/:id',component:BookdetailsComponent},
     {path:'orderdetails/:id',component:OrderdetailsComponent},
-    {path:'**',redirectTo:'home',pathMatch:'full'},
+     {path:'**',redirectTo:'home',pathMatch:'full'}
 ];
